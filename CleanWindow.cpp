@@ -67,11 +67,11 @@ GLuint compile_shaders() {
 
 	const GLchar* vertex_shader_source[] = {
 
-		"#version 450 core                            \n"
-		"                                             \n"
-		"void main (void) {                           \n"
-		"	gl_position = vec4(0.0, 0.0, 1.0, 1.0);   \n"
-		"}                                            \n"
+		"#version 450 core                                \n"
+		"                                                 \n"
+		"void main (void) {                               \n"
+		"	gl_Position = vec4(0.0, 0.0, 1.0, 1.0);   \n"
+		"}                                                \n"
 	};
 
 	const GLchar* fragment_shader_source[] = {
